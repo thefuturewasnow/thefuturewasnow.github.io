@@ -1,0 +1,4 @@
+thefuturewasnow.github.io
+=========================
+
+blog
