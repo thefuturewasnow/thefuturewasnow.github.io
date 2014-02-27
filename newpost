@@ -1,0 +1,5 @@
+#!/bin/bash
+
+postDate=$(date +"%Y-%m-%d")
+fileName="./_posts/$postDate-$1.md"
+touch $fileName
