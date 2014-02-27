@@ -1,0 +1,17 @@
+---
+layout: base
+---
+<div class="container">
+  
+  
+  {{ content }}
+  
+  {% if page.includecanvas %}
+  <div id="canvas-wrapper">
+    <canvas width="{{ page.appwith }}" height="{{ page.appheight }}" id="draw">
+    
+    </canvas>
+  </div>
+  {% endif %}
+</div>
+
